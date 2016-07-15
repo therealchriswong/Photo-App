@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4221FD971D1CA3B10003353D /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FD961D1CA3B10003353D /* PhotoTableViewController.swift */; };
+		4221FD9A1D1CA56F0003353D /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FD991D1CA56F0003353D /* PhotoTableViewCell.swift */; };
+		4221FD9C1D1CBF9E0003353D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FD9B1D1CBF9E0003353D /* PhotoViewController.swift */; };
+		4221FD9E1D1CE2850003353D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FD9D1D1CE2850003353D /* MapViewController.swift */; };
+		4221FDA01D1D576D0003353D /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FD9F1D1D576D0003353D /* PhotoManager.swift */; };
+		4221FDA21D1D57AA0003353D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FDA11D1D57AA0003353D /* Photo.swift */; };
+		4221FDA41D1D78180003353D /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221FDA31D1D78180003353D /* PhotoDetailViewController.swift */; };
+		427D31011D1C94E100C7DFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D31001D1C94E100C7DFA7 /* AppDelegate.swift */; };
+		427D31061D1C94E100C7DFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D31041D1C94E100C7DFA7 /* Main.storyboard */; };
+		427D31081D1C94E100C7DFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D31071D1C94E100C7DFA7 /* Assets.xcassets */; };
+		427D310B1D1C94E100C7DFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D31091D1C94E100C7DFA7 /* LaunchScreen.storyboard */; };
+		44CF39E21E6C6CED3A18742E /* Pods_Konrad_Photo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446DE178C21001BA5FA26C44 /* Pods_Konrad_Photo_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4221FD961D1CA3B10003353D /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		4221FD991D1CA56F0003353D /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		4221FD9B1D1CBF9E0003353D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		4221FD9D1D1CE2850003353D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4221FD9F1D1D576D0003353D /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		4221FDA11D1D57AA0003353D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4221FDA31D1D78180003353D /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		427D30FD1D1C94E100C7DFA7 /* Konrad Photo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konrad Photo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		427D31001D1C94E100C7DFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		427D31051D1C94E100C7DFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427D31071D1C94E100C7DFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427D310A1D1C94E100C7DFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		427D310C1D1C94E100C7DFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446DE178C21001BA5FA26C44 /* Pods_Konrad_Photo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Konrad_Photo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A64EEA2B087C761F9C7432 /* Pods-Konrad Photo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konrad Photo App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Konrad Photo App/Pods-Konrad Photo App.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CBF5770990F088FFDF3F7F /* Pods-Konrad Photo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Konrad Photo App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Konrad Photo App/Pods-Konrad Photo App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427D30FA1D1C94E100C7DFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CF39E21E6C6CED3A18742E /* Pods_Konrad_Photo_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4221FD941D1CA2850003353D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4221FD961D1CA3B10003353D /* PhotoTableViewController.swift */,
+				4221FD9B1D1CBF9E0003353D /* PhotoViewController.swift */,
+				4221FD9D1D1CE2850003353D /* MapViewController.swift */,
+				4221FDA31D1D78180003353D /* PhotoDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4221FD951D1CA2AB0003353D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4221FDA11D1D57AA0003353D /* Photo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4221FD981D1CA5510003353D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4221FD991D1CA56F0003353D /* PhotoTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4221FDA51D1DCDC90003353D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4221FD9F1D1D576D0003353D /* PhotoManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		427D30F41D1C94E100C7DFA7 = {
+			isa = PBXGroup;
+			children = (
+				427D30FF1D1C94E100C7DFA7 /* Konrad Photo App */,
+				427D30FE1D1C94E100C7DFA7 /* Products */,
+				A5463439989A32FC82B2CC80 /* Pods */,
+				89777B6C5A22B2CFA0E8F8EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		427D30FE1D1C94E100C7DFA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427D30FD1D1C94E100C7DFA7 /* Konrad Photo App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427D30FF1D1C94E100C7DFA7 /* Konrad Photo App */ = {
+			isa = PBXGroup;
+			children = (
+				4221FD941D1CA2850003353D /* Controllers */,
+				4221FDA51D1DCDC90003353D /* Manager */,
+				4221FD951D1CA2AB0003353D /* Models */,
+				4221FD981D1CA5510003353D /* Views */,
+				427D31001D1C94E100C7DFA7 /* AppDelegate.swift */,
+				427D31041D1C94E100C7DFA7 /* Main.storyboard */,
+				427D31071D1C94E100C7DFA7 /* Assets.xcassets */,
+				427D31091D1C94E100C7DFA7 /* LaunchScreen.storyboard */,
+				427D310C1D1C94E100C7DFA7 /* Info.plist */,
+			);
+			path = "Konrad Photo App";
+			sourceTree = "<group>";
+		};
+		89777B6C5A22B2CFA0E8F8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446DE178C21001BA5FA26C44 /* Pods_Konrad_Photo_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5463439989A32FC82B2CC80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A64EEA2B087C761F9C7432 /* Pods-Konrad Photo App.debug.xcconfig */,
+				F2CBF5770990F088FFDF3F7F /* Pods-Konrad Photo App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427D30FC1D1C94E100C7DFA7 /* Konrad Photo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427D310F1D1C94E100C7DFA7 /* Build configuration list for PBXNativeTarget "Konrad Photo App" */;
+			buildPhases = (
+				FF472A0CD62409D3EECC4D4C /* 📦 Check Pods Manifest.lock */,
+				427D30F91D1C94E100C7DFA7 /* Sources */,
+				427D30FA1D1C94E100C7DFA7 /* Frameworks */,
+				427D30FB1D1C94E100C7DFA7 /* Resources */,
+				CD4F8C93F2D8039D00675FCB /* 📦 Embed Pods Frameworks */,
+				C9D40A7EF85DC43ECCFAA831 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Konrad Photo App";
+			productName = "Konrad Photo App";
+			productReference = 427D30FD1D1C94E100C7DFA7 /* Konrad Photo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427D30F51D1C94E100C7DFA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chris Wong";
+				TargetAttributes = {
+					427D30FC1D1C94E100C7DFA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 427D30F81D1C94E100C7DFA7 /* Build configuration list for PBXProject "Konrad Photo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427D30F41D1C94E100C7DFA7;
+			productRefGroup = 427D30FE1D1C94E100C7DFA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427D30FC1D1C94E100C7DFA7 /* Konrad Photo App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427D30FB1D1C94E100C7DFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427D310B1D1C94E100C7DFA7 /* LaunchScreen.storyboard in Resources */,
+				427D31081D1C94E100C7DFA7 /* Assets.xcassets in Resources */,
+				427D31061D1C94E100C7DFA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9D40A7EF85DC43ECCFAA831 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konrad Photo App/Pods-Konrad Photo App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4F8C93F2D8039D00675FCB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Konrad Photo App/Pods-Konrad Photo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF472A0CD62409D3EECC4D4C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427D30F91D1C94E100C7DFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221FDA21D1D57AA0003353D /* Photo.swift in Sources */,
+				4221FDA01D1D576D0003353D /* PhotoManager.swift in Sources */,
+				4221FD971D1CA3B10003353D /* PhotoTableViewController.swift in Sources */,
+				4221FD9C1D1CBF9E0003353D /* PhotoViewController.swift in Sources */,
+				427D31011D1C94E100C7DFA7 /* AppDelegate.swift in Sources */,
+				4221FD9E1D1CE2850003353D /* MapViewController.swift in Sources */,
+				4221FDA41D1D78180003353D /* PhotoDetailViewController.swift in Sources */,
+				4221FD9A1D1CA56F0003353D /* PhotoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		427D31041D1C94E100C7DFA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427D31051D1C94E100C7DFA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		427D31091D1C94E100C7DFA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427D310A1D1C94E100C7DFA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		427D310D1D1C94E100C7DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		427D310E1D1C94E100C7DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427D31101D1C94E100C7DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A64EEA2B087C761F9C7432 /* Pods-Konrad Photo App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Konrad Photo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswong.Konrad-Photo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427D31111D1C94E100C7DFA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CBF5770990F088FFDF3F7F /* Pods-Konrad Photo App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Konrad Photo App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswong.Konrad-Photo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427D30F81D1C94E100C7DFA7 /* Build configuration list for PBXProject "Konrad Photo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427D310D1D1C94E100C7DFA7 /* Debug */,
+				427D310E1D1C94E100C7DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427D310F1D1C94E100C7DFA7 /* Build configuration list for PBXNativeTarget "Konrad Photo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427D31101D1C94E100C7DFA7 /* Debug */,
+				427D31111D1C94E100C7DFA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427D30F51D1C94E100C7DFA7 /* Project object */;
+}
